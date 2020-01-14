@@ -19,8 +19,6 @@ for measurement in precipitation_data:
 print(months)
 
 
-# Calculate the relative precipitation per month (percentage compared to
-# the precipitation over the whole year)
 relative_precip = []
 for month in months:
     relative_precip.append((month/total_precipitation) *100)
